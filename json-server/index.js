@@ -4,7 +4,6 @@ let tbody = document.querySelector("tbody");
 
 const url = "http://localhost:3000/users"; // VARIABLE DE ENTORNO
 
-
 document.addEventListener("DOMContentLoaded", async () => {
     let users = await getData(url);
 

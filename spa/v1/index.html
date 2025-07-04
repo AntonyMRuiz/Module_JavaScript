@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn1">mostrat contenedor 1</button>
+
+    <button id="btn2">Mostrar contenedor 2</button>
+
+    <div id="main">
+      <iframe src="" frameborder="0"></iframe>
+    </div>
+  </body>
+  <script>
+        let btn1 = document.getElementById("btn1");
+        let btn2 = document.getElementById("btn2");
+
+        let iframe = document.querySelector("iframe");
+
+        btn1.addEventListener("click", ()=>{
+          iframe.src = "./container_1.html";
+        })
+
+        btn2.addEventListener("click", ()=>{
+          iframe.src = "./container_2.html";
+        })
+
+        let users = ...;
+
+        users.forEach(user => {
+
+            cosa.innerHtml = `
+                    <div>
+                        <h2> ${user.name} </h2>
+                        <p> ${user.info} </p>
+                    </div>
+                `
+        });
+  </script>
+</html>

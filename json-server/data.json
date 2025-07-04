@@ -1,40 +1,17 @@
 {
-  "users": [
-    {
-      "name": "Antony",
-      "id": "066b"
-    },
-    {
-      "name": "Vanesa",
-      "id": "049f"
-    },
-    {
-      "id": "2409",
-      "name": "Juan"
-    },
-    {
-      "id": "bbe4",
-      "name": "adasd"
-    },
-    {
-      "id": "dbdb",
-      "name": "antony"
-    },
-    {
-      "id": "5a95",
-      "name": "asdasd"
-    },
-    {
-      "id": "b0a6",
-      "name": "asdasd"
-    },
-    {
-      "id": "f67a",
-      "name": "vanesa"
-    },
-    {
-      "id": "0bdb",
-      "name": "asdasd"
-    }
+  "usuarios": [
+    { "id": 1, "nombre": "Ana María", "rol": "admin", "edad": 28 },
+    { "id": 2, "nombre": "Marcos", "rol": "editor", "edad": 22 },
+    { "id": 3, "nombre": "Carlos", "rol": "lector", "edad": 25 },
+    { "id": 4, "nombre": "Mariana", "rol": "admin", "edad": 35 },
+    { "id": 5, "nombre": "Ana Sofía", "rol": "editor", "edad": 30 },
+    { "id": 6, "nombre": "Mario", "rol": "lector", "edad": 22 }
+  ],
+  "posts": [
+    { "id": 1, "titulo": "Aprendiendo JSON Server", "userId": 1 },
+    { "id": 2, "titulo": "CRUD con React", "userId": 2 },
+    { "id": 3, "titulo": "Tutorial de Node.js", "userId": 2 },
+    { "id": 4, "titulo": "Tips de seguridad", "userId": 3 },
+    { "id": 5, "titulo": "Cómo usar _like en JSON Server", "userId": 1 }
   ]
 }
